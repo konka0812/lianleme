@@ -109,6 +109,9 @@ h2 { font-size: 17px; margin: 26px 0 12px; font-weight: 800; }
   transition: transform 0.12s, background 0.15s, border-color 0.15s, color 0.15s;
 }
 .chip:active { transform: scale(0.94); }
+.chip-row { display: flex; flex-wrap: wrap; margin: -5px; }
+/* margin 兜底：兼容不支持 flex gap 的老内核 */
+.chip-row > * { margin: 5px; }
 .chip.on {
   background: var(--accent-fill); border-color: transparent; color: #17240a;
   box-shadow: 0 3px 14px rgba(140, 205, 70, 0.35);
