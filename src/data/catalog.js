@@ -3,8 +3,10 @@ import { MUSCLE_ZH, EQUIPMENT_ZH, TYPE_ZH, EXERCISE_ZH } from './zh-map'
 
 export { MUSCLE_ZH, EQUIPMENT_ZH, TYPE_ZH }
 
-export const OBS_BASE = 'https://makerizon.obs.cn-north-4.myhuaweicloud.com/fitness-app/workout-guide'
-export const assetUrl = (slug, n) => `${OBS_BASE}/assets/${slug}/frame-${n}.svg`
+// 素材已打包进应用（/wg-assets），不再依赖外部对象存储
+export const assetUrl = (slug, n) => `/wg/${slug}-${n}.svg`
+// 兜底 CDN：jsDelivr 直连 workout-guide 仓库
+export const fallbackUrl = (slug, n) => `https://cdn.jsdelivr.net/gh/bryllim/workout-guide@main/packages/workout-guide/assets/${slug}/frame-${n}.svg`
 
 export const exercises = manifest.map((e) => ({
   ...e,

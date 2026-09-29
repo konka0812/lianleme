@@ -1,6 +1,6 @@
 <script setup>
-import { ref, computed, watchEffect, onMounted, onUnmounted } from 'vue'
-import { assetUrl } from '../data/catalog'
+import { ref, computed, watch, watchEffect, onMounted, onUnmounted } from 'vue'
+import { assetUrl, fallbackUrl } from '../data/catalog'
 
 const props = defineProps({
   slug: { type: String, required: true },
@@ -13,6 +13,9 @@ const visible = ref(false)
 const idx = ref(0)
 const SEQ = [1, 2, 3, 2]
 const frame = computed(() => SEQ[idx.value % SEQ.length])
+const failed = ref(false)
+const src = computed(() => (failed.value ? fallbackUrl(props.slug, frame.value) : assetUrl(props.slug, frame.value)))
+watch(frame, () => { failed.value = false })
 let t = null
 let io = null
 
@@ -36,6 +39,6 @@ onUnmounted(() => {
 
 <template>
   <div ref="el" class="frame-player">
-    <img :src="assetUrl(slug, frame)" :alt="slug" loading="lazy" draggable="false" />
+    <img :src="src" :alt="slug" loading="lazy" draggable="false" @error="failed = true" />
   </div>
 </template>

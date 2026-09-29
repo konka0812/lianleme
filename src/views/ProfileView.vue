@@ -159,7 +159,7 @@ function resetOnboarding() {
       {{ prog.running ? `缓存中 ${prog.done}/${prog.total}` : '预缓存全部动作图 · 离线可用' }}
     </button>
     <div v-if="prog.total" class="bar" style="margin-top: 10px;"><i :style="{ width: (prog.done / prog.total * 100) + '%' }" /></div>
-    <p v-else class="faint" style="text-align: center; margin: 8px 0 0;">约 18MB · 建议Wi-Fi环境 · 健身房断网也能用</p>
+    <p v-else class="faint" style="text-align: center; margin: 8px 0 0;">约 25MB · 建议Wi-Fi · 健身房断网也能用</p>
 
     <p class="faint" style="text-align: center; margin: 22px 0 0; font-size: 11px;">
       练了么 v1.0 · 线稿素材 Bryl Lim（CC BY-SA 4.0）
