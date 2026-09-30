@@ -15,8 +15,6 @@ import { STEPS_ZH } from '../data/steps-zh'
 const route = useRoute()
 const router = useRouter()
 const ex = computed(() => getExercise(route.params.slug))
-const playing = ref(true)
-const speed = ref(320)
 const tips = computed(() => getTips(ex.value))
 const mistake = computed(() => getMistake(ex.value))
 const steps = computed(() => STEPS_ZH[route.params.slug] || [])
@@ -67,16 +65,11 @@ function onAdd() {
       </button>
     </div>
 
-    <div class="player-card card" @click="playing = !playing">
+    <div class="player-card card">
       <div class="player-glow" />
       <FramePlayer :url="gifUrl(ex)" :fallback="gifFallback(ex)" />
-      <span class="play-state">
-        <Icon :name="playing ? 'pause' : 'play'" :size="13" />
-        {{ playing ? '播放中' : '已暂停' }}
-      </span>
     </div>
     <div class="row" style="justify-content: center; margin: 12px 0 18px; gap: 6px;">
-      <button v-for="(label, v) in { 450: '慢', 320: '中', 220: '快' }" :key="v" class="chip" :class="{ on: speed === Number(v) }" @click="speed = Number(v); playing = true">{{ label }}</button>
     </div>
 
     <h1 style="font-size: 24px;">{{ ex.zh }}</h1>
@@ -96,7 +89,7 @@ function onAdd() {
         <span class="muted" style="font-size: 12px;">{{ steps.length }} 步</span>
         <Icon name="chevron" :size="15" style="color: var(--faint); margin-left: auto;" :style="stepsOpen ? 'transform: rotate(90deg)' : ''" />
       </button>
-      <div v-if="stepsOpen">
+      <div v-if="stepsOpen" class="steps-body">
         <div v-for="(s, i) in steps" :key="i" class="tip-row">
           <span class="tip-num">{{ i + 1 }}</span>
           <span class="tip-text">{{ s }}</span>
@@ -163,9 +156,11 @@ function onAdd() {
 .steps-card { margin-top: 18px; }
 .steps-toggle {
   width: 100%; display: flex; align-items: center; gap: 8px;
-  padding: 13px 16px; background: transparent; border: none;
-  color: var(--text); font-size: 14px; cursor: pointer;
+  padding: 14px 16px; background: transparent; border: none;
+  border-radius: 14px; color: var(--text); font-size: 14.5px; font-weight: 800; cursor: pointer;
 }
+.steps-toggle:active { background: var(--card-hover); }
+.steps-body { padding: 2px 16px 12px; border-top: 1px dashed var(--line); }
 .bar-row { display: flex; gap: 10px; }
 .bottom-bar {
   position: fixed; bottom: calc(68px + env(safe-area-inset-bottom)); left: 50%; transform: translateX(-50%);
@@ -180,11 +175,4 @@ function onAdd() {
 
 
 <style scoped>
-.speed-chip {
-  min-width: 92px; padding: 9px 0; border-radius: 999px; text-align: center;
-  border: 1px solid var(--line-strong); background: var(--card);
-  color: var(--muted); font-size: 14px; font-weight: 700; cursor: pointer;
-  transition: all 0.15s;
-}
-.speed-chip.on { background: var(--accent-fill); border-color: transparent; color: #17240a; box-shadow: 0 3px 12px rgba(140, 205, 70, 0.3); }
 </style>

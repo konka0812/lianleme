@@ -79,7 +79,6 @@ body {
 .app-shell { min-height: 100dvh; }
 
 /* 白色线稿素材：浅色主题下反色为深色线稿 */
-:root[data-theme='light'] .frame-player img { filter: invert(1) brightness(0.75); }
 
 /* ---- 布局 ---- */
 .page { padding: 14px 16px calc(86px + env(safe-area-inset-bottom)); }
@@ -196,7 +195,9 @@ input[type='text']::placeholder { color: var(--faint); }
 
 /* ---- 播放器 ---- */
 .frame-player { display: flex; align-items: center; justify-content: center; }
+:root[data-theme='dark'] .frame-player { background: #000; border-radius: 12px; }
 .frame-player img { width: 100%; height: 100%; object-fit: contain; user-select: none; -webkit-user-drag: none; }
+.frame-player img.dark-bg { mix-blend-mode: screen; }
 
 /* ---- 动画 ---- */
 @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
