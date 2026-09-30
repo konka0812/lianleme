@@ -8,14 +8,14 @@ export const gifFallback = (ex) => `https://cdn.jsdelivr.net/gh/hasaneyldrm/exer
 export const exercises = manifest
 
 export const MUSCLE_GROUPS = [
-  { id: 'chest', name: '胸部', match: ['chest'], color: '#ff7a70' },
-  { id: 'shoulders', name: '肩部', match: ['shoulders', 'neck'], color: '#4dabf7' },
-  { id: 'back', name: '背部', match: ['back'], color: '#b197fc' },
-  { id: 'arms', name: '手臂', match: ['upper arms', 'lower arms'], color: '#f5b940' },
-  { id: 'core', name: '核心', match: ['waist'], color: '#38d2c2' },
-  { id: 'legs', name: '臀腿', match: ['upper legs', 'lower legs'], color: '#e599f7' },
-  { id: 'cardio', name: '有氧心肺', match: ['cardio'], color: '#3bc9db' },
-  { id: 'stretch', name: '拉伸放松', stretch: true, color: '#94a3b2' },
+{ id: 'chest', name: '胸部', char: '胸', match: ['chest'], color: '#ff7a70' },
+{ id: 'shoulders', name: '肩部', char: '肩', match: ['shoulders', 'neck'], color: '#4dabf7' },
+{ id: 'back', name: '背部', char: '背', match: ['back'], color: '#b197fc' },
+{ id: 'arms', name: '手臂', char: '臂', match: ['upper arms', 'lower arms'], color: '#f5b940' },
+{ id: 'core', name: '核心', char: '核', match: ['waist'], color: '#38d2c2' },
+{ id: 'legs', name: '臀腿', char: '腿', match: ['upper legs', 'lower legs'], color: '#e599f7' },
+{ id: 'cardio', name: '有氧心肺', char: '氧', match: ['cardio'], color: '#3bc9db' },
+{ id: 'stretch', name: '拉伸放松', char: '伸', stretch: true, color: '#94a3b2' },
 ]
 
 export const HOME_EQUIPMENT = ['body weight', 'dumbbell', 'band', 'resistance band', 'kettlebell', 'stability ball', 'ez barbell', 'rope', 'roller', 'wheel roller', 'bosu ball', 'medicine ball', 'stationary bike']
