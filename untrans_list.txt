@@ -1,0 +1,456 @@
+TOTAL: 455
+3-4-sit-up | 3/4 sit-up
+arms-overhead-full-sit-up-male | arms overhead full sit-up (male)
+assisted-hanging-knee-raise | assisted hanging knee raise
+assisted-hanging-knee-raise-with-throw-down | assisted hanging knee raise with throw down
+assisted-parallel-close-grip-pull-up | assisted parallel close grip pull-up
+assisted-prone-rectus-femoris-stretch | assisted prone rectus femoris stretch
+assisted-seated-pectoralis-major-stretch-with-stability-ball | assisted seated pectoralis major stretch with stability ball
+assisted-sit-up | assisted sit-up
+assisted-standing-chin-up | assisted standing chin-up
+back-lever | back lever
+backward-jump | backward jump
+balance-board | balance board
+band-alternating-v-up | band alternating v-up
+band-assisted-wheel-rollerout | band assisted wheel rollerout
+band-jack-knife-sit-up | band jack knife sit-up
+band-push-sit-up | band push sit-up
+band-standing-rear-delt-row | band standing rear delt row
+band-v-up | band v-up
+barbell-clean-grip-front-squat | barbell clean-grip front squat
+barbell-high-bar-squat | barbell high bar squat
+barbell-low-bar-squat | barbell low bar squat
+barbell-lying-back-of-the-head-tricep-extension | barbell lying back of the head tricep extension
+barbell-press-sit-up | barbell press sit-up
+barbell-rear-delt-raise | barbell rear delt raise
+barbell-rear-delt-row | barbell rear delt row
+barbell-revers-wrist-curl-v-2 | barbell revers wrist curl v. 2
+barbell-rollerout-from-bench | barbell rollerout from bench
+barbell-seated-close-grip-behind-neck-triceps-extension | barbell seated close grip behind neck triceps extension
+barbell-side-bent-v-2 | barbell side bent v. 2
+barbell-standing-front-raise-over-head | barbell standing front raise over head
+barbell-thruster | barbell thruster
+biceps-leg-concentration-curl | biceps leg concentration curl
+biceps-narrow-pull-ups | biceps narrow pull-ups
+biceps-pull-up | biceps pull-up
+body-up | body-up
+bottoms-up | bottoms-up
+butt-ups | butt-ups
+cable-cross-over-revers-fly | cable cross-over revers fly
+cable-cross-over-variation | cable cross-over variation
+cable-floor-seated-wide-grip-row | cable floor seated wide-grip row
+cable-high-pulley-overhead-tricep-extension | cable high pulley overhead tricep extension
+cable-kneeling-rear-delt-row-with-rope-male | cable kneeling rear delt row (with rope) (male)
+cable-lateral-pulldown-with-v-bar | cable lateral pulldown with v-bar
+cable-one-arm-lateral-bent-over | cable one arm lateral bent-over
+cable-pulldown-bicep-curl | cable pulldown bicep curl
+cable-rear-delt-row-stirrups | cable rear delt row (stirrups)
+cable-rear-delt-row-with-rope | cable rear delt row (with rope)
+cable-rear-drive | cable rear drive
+cable-rope-crossover-seated-row | cable rope crossover seated row
+cable-rope-extension-incline-bench-row | cable rope extension incline bench row
+cable-rope-hammer-preacher-curl | cable rope hammer preacher curl
+cable-rope-high-pulley-overhead-tricep-extension | cable rope high pulley overhead tricep extension
+cable-rope-lying-on-floor-tricep-extension | cable rope lying on floor tricep extension
+cable-rope-one-arm-hammer-preacher-curl | cable rope one arm hammer preacher curl
+cable-russian-twists-on-stability-ball | cable russian twists (on stability ball)
+cable-seated-shoulder-internal-rotation | cable seated shoulder internal rotation
+cable-side-bend-crunch-bosu-ball | cable side bend crunch (bosu ball)
+cable-squatting-curl | cable squatting curl
+cable-standing-inner-curl | cable standing inner curl
+cable-standing-lift | cable standing lift
+cable-standing-rear-delt-row-with-rope | cable standing rear delt row (with rope)
+cable-standing-shoulder-external-rotation | cable standing shoulder external rotation
+cable-standing-twist-row-v-bar | cable standing twist row (v-bar)
+cable-standing-up-straight-crossovers | cable standing up straight crossovers
+cable-thibaudeau-kayak-row | cable thibaudeau kayak row
+cable-tuck-reverse-crunch | cable tuck reverse crunch
+cable-twisting-pull | cable twisting pull
+cable-two-arm-tricep-kickback | cable two arm tricep kickback
+cable-upper-chest-crossovers | cable upper chest crossovers
+cable-upper-row | cable upper row
+cable-wide-grip-rear-pulldown-behind-neck | cable wide grip rear pulldown behind neck
+calf-push-stretch-with-hands-against-wall | calf push stretch with hands against wall
+calf-stretch-with-hands-against-wall | calf stretch with hands against wall
+calf-stretch-with-rope | calf stretch with rope
+captains-chair-straight-leg-raise | captains chair straight leg raise
+chair-leg-extended-stretch | chair leg extended stretch
+chest-and-front-of-shoulder-stretch | chest and front of shoulder stretch
+chest-dip-on-straight-bar | chest dip on straight bar
+chest-stretch-with-exercise-ball | chest stretch with exercise ball
+chest-tap-push-up-male | chest tap push-up (male)
+chin-up | chin-up
+chin-ups-narrow-parallel-grip | chin-ups (narrow parallel grip)
+circles-knee-stretch | circles knee stretch
+clap-push-up | clap push up
+clock-push-up | clock push-up
+close-grip-chin-up | close grip chin-up
+cocoons | cocoons
+crab-twist-toe-touch | crab twist toe touch
+cross-body-crunch | cross body crunch
+crunch-floor | crunch floor
+curl-up | curl-up
+curtsey-squat | curtsey squat
+cycle-cross-trainer | cycle cross trainer
+dead-bug | dead bug
+decline-sit-up | decline sit-up
+deep-push-up | deep push up
+dumbbell-alternate-hammer-preacher-curl | dumbbell alternate hammer preacher curl
+dumbbell-alternating-bicep-curl-with-leg-raised-on-exercise-ball | dumbbell alternating bicep curl with leg raised on exercise ball
+dumbbell-around-pullover | dumbbell around pullover
+dumbbell-bicep-curl-lunge-with-bowling-motion | dumbbell bicep curl lunge with bowling motion
+dumbbell-bicep-curl-on-exercise-ball-with-leg-raised | dumbbell bicep curl on exercise ball with leg raised
+dumbbell-bicep-curl-with-stork-stance | dumbbell bicep curl with stork stance
+dumbbell-biceps-curl-reverse | dumbbell biceps curl reverse
+dumbbell-biceps-curl-squat | dumbbell biceps curl squat
+dumbbell-biceps-curl-v-sit-on-bosu-ball | dumbbell biceps curl v sit on bosu ball
+dumbbell-contralateral-forward-lunge | dumbbell contralateral forward lunge
+dumbbell-cross-body-hammer-curl | dumbbell cross body hammer curl
+dumbbell-cross-body-hammer-curl-v-2 | dumbbell cross body hammer curl v. 2
+dumbbell-cuban-press | dumbbell cuban press
+dumbbell-cuban-press-v-2 | dumbbell cuban press v. 2
+dumbbell-full-can-lateral-raise | dumbbell full can lateral raise
+dumbbell-incline-breeding | dumbbell incline breeding
+dumbbell-incline-palm-in-press | dumbbell incline palm-in press
+dumbbell-incline-twisted-flyes | dumbbell incline twisted flyes
+dumbbell-iron-cross | dumbbell iron cross
+dumbbell-kickbacks-on-exercise-ball | dumbbell kickbacks on exercise ball
+dumbbell-kneeling-bicep-curl-exercise-ball | dumbbell kneeling bicep curl exercise ball
+dumbbell-lateral-to-front-raise | dumbbell lateral to front raise
+dumbbell-lunge-with-bicep-curl | dumbbell lunge with bicep curl
+dumbbell-lying-elbow-press | dumbbell lying elbow press
+dumbbell-lying-external-shoulder-rotation | dumbbell lying external shoulder rotation
+dumbbell-lying-femoral | dumbbell lying femoral
+dumbbell-lying-on-floor-rear-delt-raise | dumbbell lying on floor rear delt raise
+dumbbell-lying-one-arm-deltoid-rear | dumbbell lying one arm deltoid rear
+dumbbell-lying-rear-delt-row | dumbbell lying rear delt row
+dumbbell-lying-single-extension | dumbbell lying single extension
+dumbbell-lying-supination | dumbbell lying supination
+dumbbell-lying-supination-on-floor | dumbbell lying supination on floor
+dumbbell-one-arm-hammer-preacher-curl | dumbbell one arm hammer preacher curl
+dumbbell-over-bench-neutral-wrist-curl | dumbbell over bench neutral wrist curl
+dumbbell-over-bench-one-arm-neutral-wrist-curl | dumbbell over bench one arm neutral wrist curl
+dumbbell-over-bench-one-arm-reverse-wrist-curl | dumbbell over bench one arm reverse wrist curl
+dumbbell-over-bench-one-arm-wrist-curl | dumbbell over bench one arm wrist curl
+dumbbell-over-bench-revers-wrist-curl | dumbbell over bench revers wrist curl
+dumbbell-over-bench-wrist-curl | dumbbell over bench wrist curl
+dumbbell-palm-rotational-bent-over-row | dumbbell palm rotational bent over row
+dumbbell-palms-in-incline-bench-press | dumbbell palms in incline bench press
+dumbbell-plyo-squat | dumbbell plyo squat
+dumbbell-preacher-curl-over-exercise-ball | dumbbell preacher curl over exercise ball
+dumbbell-pronate-grip-triceps-extension | dumbbell pronate-grip triceps extension
+dumbbell-rear-delt-raise | dumbbell rear delt raise
+dumbbell-rear-delt-row-shoulder | dumbbell rear delt row_shoulder
+dumbbell-revers-grip-biceps-curl | dumbbell revers grip biceps curl
+dumbbell-scott-press | dumbbell scott press
+dumbbell-seated-alternate-shoulder | dumbbell seated alternate shoulder
+dumbbell-seated-bent-arm-lateral-raise | dumbbell seated bent arm lateral raise
+dumbbell-seated-biceps-curl-to-shoulder-press | dumbbell seated biceps curl to shoulder press
+dumbbell-seated-one-arm-bicep-curl-on-exercise-ball-with-leg-raised | dumbbell seated one arm bicep curl on exercise ball with leg raised
+dumbbell-seated-one-arm-rotate | dumbbell seated one arm rotate
+dumbbell-seated-one-leg-calf-raise-hammer-grip | dumbbell seated one leg calf raise - hammer grip
+dumbbell-seated-one-leg-calf-raise-palm-up | dumbbell seated one leg calf raise - palm up
+dumbbell-seated-revers-grip-concentration-curl | dumbbell seated revers grip concentration curl
+dumbbell-side-lying-one-hand-raise | dumbbell side lying one hand raise
+dumbbell-side-plank-with-rear-fly | dumbbell side plank with rear fly
+dumbbell-single-leg-deadlift-with-stepbox-support | dumbbell single leg deadlift with stepbox support
+dumbbell-standing-alternate-hammer-curl-and-press | dumbbell standing alternate hammer curl and press
+dumbbell-standing-alternating-tricep-kickback | dumbbell standing alternating tricep kickback
+dumbbell-standing-around-world | dumbbell standing around world
+dumbbell-standing-front-raise-above-head | dumbbell standing front raise above head
+dumbbell-standing-one-arm-curl-over-incline-bench-2 | dumbbell standing one arm curl over incline bench
+dumbbell-standing-one-arm-palm-in-press | dumbbell standing one arm palm in press
+dumbbell-standing-palms-in-press | dumbbell standing palms in press
+dumbbell-step-up-single-leg-balance-with-bicep-curl | dumbbell step up single leg balance with bicep curl
+dumbbell-step-up-lunge | dumbbell step-up lunge
+dumbbell-step-up-split-squat | dumbbell step-up split squat
+dumbbell-supported-squat | dumbbell supported squat
+dumbbell-tate-press | dumbbell tate press
+dumbbell-tricep-kickback-with-stork-stance | dumbbell tricep kickback with stork stance
+dumbbell-upright-shoulder-external-rotation | dumbbell upright shoulder external rotation
+dumbbell-waiter-biceps-curl | dumbbell waiter biceps curl
+dumbbell-w-press | dumbbell w-press
+dumbbells-seated-triceps-extension | dumbbells seated triceps extension
+dynamic-chest-stretch-male | dynamic chest stretch (male)
+elbow-dips | elbow dips
+elbow-lift-reverse-push-up | elbow lift - reverse push-up
+elbow-to-knee | elbow-to-knee
+elevator | elevator
+exercise-ball-alternating-arm-ups | exercise ball alternating arm ups
+exercise-ball-back-extension-with-arms-extended | exercise ball back extension with arms extended
+exercise-ball-back-extension-with-hands-behind-head | exercise ball back extension with hands behind head
+exercise-ball-back-extension-with-knees-off-ground | exercise ball back extension with knees off ground
+exercise-ball-back-extension-with-rotation | exercise ball back extension with rotation
+exercise-ball-hug | exercise ball hug
+exercise-ball-lower-back-stretch-pyramid | exercise ball lower back stretch (pyramid)
+exercise-ball-lying-side-lat-stretch | exercise ball lying side lat stretch
+exercise-ball-on-the-wall-calf-raise | exercise ball on the wall calf raise
+exercise-ball-on-the-wall-calf-raise-tennis-ball-between-ankles | exercise ball on the wall calf raise (tennis ball between ankles)
+exercise-ball-on-the-wall-calf-raise-tennis-ball-between-knees | exercise ball on the wall calf raise (tennis ball between knees)
+exercise-ball-one-leg-prone-lower-body-rotation | exercise ball one leg prone lower body rotation
+exercise-ball-seated-hamstring-stretch | exercise ball seated hamstring stretch
+ez-bar-lying-bent-arms-pullover | ez bar lying bent arms pullover
+ez-barbell-decline-close-grip-face-press | ez barbell decline close grip face press
+farmers-walk | farmers walk
+flexion-leg-sit-up-bent-knee | flexion leg sit up (bent knee)
+flexion-leg-sit-up-straight-arm | flexion leg sit up (straight arm)
+flutter-kicks | flutter kicks
+frankenstein-squat | frankenstein squat
+frog-crunch | frog crunch
+frog-planche | frog planche
+front-lever | front lever
+front-lever-reps | front lever reps
+full-maltese | full maltese
+full-planche | full planche
+full-planche-push-up | full planche push-up
+gironda-sternum-chin | gironda sternum chin
+glute-ham-raise | glute-ham raise
+gorilla-chin | gorilla chin
+groin-crunch | groin crunch
+half-knee-bends-male | half knee bends (male)
+half-sit-up-male | half sit-up (male)
+hands-bike | hands bike
+hands-clasped-circular-toe-touch-male | hands clasped circular toe touch (male)
+hands-reversed-clasped-circular-toe-touch-male | hands reversed clasped circular toe touch (male)
+handstand | handstand
+handstand-push-up | handstand push-up
+hanging-leg-hip-raise | hanging leg hip raise
+hanging-oblique-knee-raise | hanging oblique knee raise
+hanging-straight-twisting-leg-hip-raise | hanging straight twisting leg hip raise
+high-knee-against-wall | high knee against wall
+hug-keens-to-chest | hug keens to chest
+hyght-dumbbell-fly | hyght dumbbell fly
+impossible-dips | impossible dips
+inchworm | inchworm
+inchworm-v-2 | inchworm v. 2
+incline-leg-hip-raise-leg-straight | incline leg hip raise (leg straight)
+incline-push-up-depth-jump | incline push up depth jump
+incline-scapula-push-up | incline scapula push up
+incline-twisting-sit-up | incline twisting sit-up
+intermediate-hip-flexor-and-quad-stretch | intermediate hip flexor and quad stretch
+inverted-row-with-straps | inverted row with straps
+iron-cross-stretch | iron cross stretch
+isometric-chest-squeeze | isometric chest squeeze
+isometric-wipers | isometric wipers
+jack-burpee | jack burpee
+jack-jump-male | jack jump (male)
+jackknife-sit-up | jackknife sit-up
+janda-sit-up | janda sit-up
+jump-rope | jump rope
+kettlebell-advanced-windmill | kettlebell advanced windmill
+kettlebell-alternating-renegade-row | kettlebell alternating renegade row
+kettlebell-bent-press | kettlebell bent press
+kettlebell-bottoms-up-clean-from-the-hang-position | kettlebell bottoms up clean from the hang position
+kettlebell-double-alternating-hang-clean | kettlebell double alternating hang clean
+kettlebell-double-jerk | kettlebell double jerk
+kettlebell-double-push-press | kettlebell double push press
+kettlebell-double-snatch | kettlebell double snatch
+kettlebell-double-windmill | kettlebell double windmill
+kettlebell-extended-range-one-arm-press-on-floor | kettlebell extended range one arm press on floor
+kettlebell-figure-8 | kettlebell figure 8
+kettlebell-lunge-pass-through | kettlebell lunge pass through
+kettlebell-one-arm-clean-and-jerk | kettlebell one arm clean and jerk
+kettlebell-one-arm-jerk | kettlebell one arm jerk
+kettlebell-one-arm-military-press-to-the-side | kettlebell one arm military press to the side
+kettlebell-pirate-supper-legs | kettlebell pirate supper legs
+kettlebell-plyo-push-up | kettlebell plyo push-up
+kettlebell-seesaw-press | kettlebell seesaw press
+kettlebell-sumo-high-pull | kettlebell sumo high pull
+kettlebell-thruster | kettlebell thruster
+kettlebell-turkish-get-up-squat-style | kettlebell turkish get up (squat style)
+kettlebell-windmill | kettlebell windmill
+kick-out-sit | kick out sit
+kipping-muscle-up | kipping muscle up
+knee-touch-crunch | knee touch crunch
+kneeling-plank-tap-shoulder-male | kneeling plank tap shoulder (male)
+korean-dips | korean dips
+l-pull-up | l-pull-up
+l-sit-on-floor | l-sit on floor
+lean-planche | lean planche
+left-hook-boxing | left hook. boxing
+leg-pull-in-flat-bench | leg pull in flat bench
+lever-alternating-narrow-grip-seated-row | lever alternating narrow grip seated row
+lever-assisted-chin-up | lever assisted chin-up
+lever-bent-over-row-with-v-bar | lever bent-over row with v-bar
+lever-gripless-shrug | lever gripless shrug
+lever-gripless-shrug-v-2 | lever gripless shrug v. 2
+lever-gripper-hands | lever gripper hands
+lever-hammer-grip-preacher-curl | lever hammer grip preacher curl
+lever-lying-two-one-leg-curl | lever lying two-one leg curl
+lever-narrow-grip-seated-row | lever narrow grip seated row
+lever-rotary-calf | lever rotary calf
+lever-seated-calf-press | lever seated calf press
+lever-seated-leg-raise-crunch | lever seated leg raise crunch
+lever-t-bar-reverse-grip-row | lever t-bar reverse grip row
+lever-unilateral-row | lever unilateral row
+lunge-with-jump | lunge with jump
+lying-elbow-to-knee | lying elbow to knee
+lying-leg-hip-raise | lying leg-hip raise
+machine-inner-chest-press | machine inner chest press
+march-sit-wall | march sit (wall)
+medicine-ball-catch-and-overhead-throw | medicine ball catch and overhead throw
+medicine-ball-chest-pass | medicine ball chest pass
+medicine-ball-chest-push-with-run-release | medicine ball chest push with run release
+medicine-ball-overhead-slam | medicine ball overhead slam
+medicine-ball-supine-chest-throw | medicine ball supine chest throw
+mixed-grip-chin-up | mixed grip chin-up
+modified-hindu-push-up-male | modified hindu push-up (male)
+modified-push-up-to-lower-arms | modified push up to lower arms
+monster-walk | monster walk
+neck-side-stretch | neck side stretch
+oblique-crunch-v-2 | oblique crunch v. 2
+oblique-crunches-floor | oblique crunches floor
+one-arm-against-wall | one arm against wall
+one-arm-chin-up | one arm chin-up
+one-arm-slam-with-medicine-ball | one arm slam (with medicine ball)
+otis-up | otis up
+outside-leg-kick-push-up | outside leg kick push-up
+peroneals-stretch | peroneals stretch
+pike-to-cobra-push-up | pike-to-cobra push-up
+plyo-push-up | plyo push up
+posterior-step-to-overhead-reach | posterior step to overhead reach
+potty-squat | potty squat
+potty-squat-with-support | potty squat with support
+power-point-plank | power point plank
+prisoner-half-sit-up-male | prisoner half sit-up (male)
+prone-twist-on-stability-ball | prone twist on stability ball
+pull-in-on-stability-ball | pull-in (on stability ball)
+push-and-pull-bodyweight | push and pull bodyweight
+push-to-run | push to run
+push-up-close-grip-off-dumbbell | push-up close-grip off dumbbell
+push-up-inside-leg-kick | push-up inside leg kick
+push-up-medicine-ball | push-up medicine ball
+push-up-on-lower-arms | push-up on lower arms
+push-up-plus | push-up plus
+push-up-to-side-plank | push-up to side plank
+quads | quads
+quarter-sit-up | quarter sit-up
+quick-feet-v-2 | quick feet v. 2
+raise-single-arm-push-up | raise single arm push-up
+rear-decline-bridge | rear decline bridge
+rear-deltoid-stretch | rear deltoid stretch
+reclining-big-toe-pose-with-rope | reclining big toe pose with rope
+resistance-band-hip-thrusts-on-knees-female | resistance band hip thrusts on knees (female)
+reverse-grip-machine-lat-pulldown | reverse grip machine lat pulldown
+reverse-hyper-extension-on-stability-ball | reverse hyper extension (on stability ball)
+reverse-hyper-on-flat-bench | reverse hyper on flat bench
+reverse-plank-with-leg-lift | reverse plank with leg lift
+ring-dips | ring dips
+rocking-frog-stretch | rocking frog stretch
+rocky-pull-up-pulldown | rocky pull-up pulldown
+roller-body-saw | roller body saw
+roller-hip-lat-stretch | roller hip lat stretch
+roller-hip-stretch | roller hip stretch
+roller-side-lat-stretch | roller side lat stretch
+rope-climb | rope climb
+runners-stretch | runners stretch
+scapula-dips | scapula dips
+scapula-push-up | scapula push-up
+scapular-pull-up | scapular pull-up
+scissor-jumps-male | scissor jumps (male)
+seated-calf-stretch-male | seated calf stretch (male)
+seated-lower-back-stretch | seated lower back stretch
+seated-piriformis-stretch | seated piriformis stretch
+seated-wide-angle-pose-sequence | seated wide angle pose sequence
+semi-squat-jump-male | semi squat jump (male)
+short-stride-run | short stride run
+shoulder-grip-pull-up | shoulder grip pull-up
+shoulder-tap | shoulder tap
+shoulder-tap-push-up | shoulder tap push-up
+side-bridge-hip-abduction | side bridge hip abduction
+side-bridge-v-2 | side bridge v. 2
+side-hip-on-parallel-bars | side hip (on parallel bars)
+side-lying-floor-stretch | side lying floor stretch
+side-plank-hip-adduction | side plank hip adduction
+side-push-neck-stretch | side push neck stretch
+side-wrist-pull-stretch | side wrist pull stretch
+side-to-side-chin | side-to-side chin
+side-to-side-toe-touch-male | side-to-side toe touch (male)
+single-leg-bridge-with-outstretched-leg | single leg bridge with outstretched leg
+single-leg-platform-slide | single leg platform slide
+sit-up-v-2 | sit-up v. 2
+sit-up-with-arms-on-chest | sit-up with arms on chest
+skater-hops | skater hops
+ski-ergometer | ski ergometer
+ski-step | ski step
+skin-the-cat | skin the cat
+sled-45-degrees-one-leg-press | sled 45 degrees one leg press
+sled-45-calf-press | sled 45в° calf press
+sled-45-leg-press | sled 45в° leg press
+sled-45-leg-press-back-pov | sled 45в° leg press (back pov)
+sled-45-leg-press-side-pov | sled 45° leg press (side pov)
+sled-45-leg-wide-press | sled 45в° leg wide press
+sled-calf-press-on-leg-press | sled calf press on leg press
+sled-closer-hack-squat | sled closer hack squat
+sled-forward-angled-calf-raise | sled forward angled calf raise
+sled-hack-squat | sled hack squat
+sled-lying-calf-press | sled lying calf press
+sled-lying-squat | sled lying squat
+sled-one-leg-calf-press-on-leg-press | sled one leg calf press on leg press
+sledge-hammer | sledge hammer
+smith-bent-knee-good-morning | smith bent knee good morning
+smith-low-bar-squat | smith low bar squat
+smith-rear-delt-row | smith rear delt row
+smith-sprint-lunge | smith sprint lunge
+smith-toe-raise | smith toe raise
+snatch-pull | snatch pull
+spell-caster | spell caster
+sphinx | sphinx
+spider-crawl-push-up | spider crawl push up
+spine-stretch | spine stretch
+spine-twist | spine twist
+squat-jerk | squat jerk
+squat-to-overhead-reach | squat to overhead reach
+squat-to-overhead-reach-with-twist | squat to overhead reach with twist
+stalder-press | stalder press
+standing-archer | standing archer
+standing-calves | standing calves
+standing-hamstring-and-calf-stretch-with-strap | standing hamstring and calf stretch with strap
+star-jump-male | star jump (male)
+stationary-bike-walk | stationary bike walk
+straddle-maltese | straddle maltese
+straddle-planche | straddle planche
+straight-leg-outer-hip-abductor | straight leg outer hip abductor
+superman-push-up | superman push-up
+suspended-abdominal-fallout | suspended abdominal fallout
+suspended-push-up | suspended push-up
+suspended-reverse-crunch | suspended reverse crunch
+suspended-row | suspended row
+suspended-split-squat | suspended split squat
+swimmer-kicks-v-2-male | swimmer kicks v. 2 (male)
+three-bench-dip | three bench dip
+tire-flip | tire flip
+triceps-dips-floor | triceps dips floor
+triceps-press | triceps press
+tuck-crunch | tuck crunch
+twin-handle-parallel-grip-lat-pulldown | twin handle parallel grip lat pulldown
+twist-hip-lift | twist hip lift
+twisted-leg-raise | twisted leg raise
+twisted-leg-raise-female | twisted leg raise (female)
+two-toe-touch-male | two toe touch (male)
+upper-back-stretch | upper back stretch
+upward-facing-dog | upward facing dog
+v-sit-on-floor | v-sit on floor
+walk-elliptical-cross-trainer | walk elliptical cross trainer
+walking-high-knees-lunge | walking high knees lunge
+walking-on-incline-treadmill | walking on incline treadmill
+walking-on-stepmill | walking on stepmill
+weighted-close-grip-chin-up-on-dip-cage | weighted close grip chin-up on dip cage
+weighted-decline-sit-up | weighted decline sit-up
+weighted-hanging-leg-hip-raise | weighted hanging leg-hip raise
+weighted-kneeling-step-with-swing | weighted kneeling step with swing
+weighted-lunge-with-swing | weighted lunge with swing
+weighted-one-hand-pull-up | weighted one hand pull up
+weighted-round-arm | weighted round arm
+weighted-standing-hand-squeeze | weighted standing hand squeeze
+weighted-straight-bar-dip | weighted straight bar dip
+weighted-stretch-lunge | weighted stretch lunge
+weighted-svend-press | weighted svend press
+weighted-three-bench-dips | weighted three bench dips
+weighted-tricep-dips | weighted tricep dips
+weighted-triceps-dip-on-high-parallel-bars | weighted triceps dip on high parallel bars
+wheel-run | wheel run
+wide-hand-push-up | wide hand push up
+wide-grip-chest-dip-on-high-parallel-bars | wide-grip chest dip on high parallel bars
+wind-sprints | wind sprints
+wrist-rollerer | wrist rollerer
