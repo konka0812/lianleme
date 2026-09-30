@@ -9,6 +9,7 @@ import { showToast, buzz } from '../stores/toast'
 import FramePlayer from '../components/FramePlayer.vue'
 import Icon from '../components/Icon.vue'
 import { difficultyOf, DIFF_COLOR } from '../data/difficulty'
+import { STEPS_ZH } from '../data/steps-zh'
 
 const route = useRoute()
 const router = useRouter()
@@ -17,6 +18,8 @@ const playing = ref(true)
 const speed = ref(320)
 const tips = computed(() => getTips(ex.value))
 const mistake = computed(() => getMistake(ex.value))
+const steps = computed(() => STEPS_ZH[route.params.slug] || [])
+const stepsOpen = ref(false)
 const rep = computed(() => (ex.value ? repSuggestion(ex.value) : ''))
 const fav = computed(() => settings.favorites.includes(route.params.slug))
 const inList = computed(() => !!workout.list.find((i) => i.slug === route.params.slug))
@@ -86,6 +89,20 @@ function onAdd() {
     </div>
     <p class="muted" style="margin-top: 12px; font-size: 13px;">协同肌群：{{ ex.secondaryZh.join('、') || '无' }}</p>
 
+    <div v-if="steps.length" class="card steps-card">
+      <button class="steps-toggle" @click="stepsOpen = !stepsOpen">
+        <b>详细步骤</b>
+        <span class="muted" style="font-size: 12px;">{{ steps.length }} 步</span>
+        <Icon name="chevron" :size="15" style="color: var(--faint); margin-left: auto;" :style="stepsOpen ? 'transform: rotate(90deg)' : ''" />
+      </button>
+      <div v-if="stepsOpen">
+        <div v-for="(s, i) in steps" :key="i" class="tip-row">
+          <span class="tip-num">{{ i + 1 }}</span>
+          <span class="tip-text">{{ s }}</span>
+        </div>
+      </div>
+    </div>
+
     <div class="card tips-card">
       <div class="row" style="padding: 13px 16px 3px;">
         <div class="tip-ico"><Icon name="zap" :size="15" /></div>
@@ -141,7 +158,13 @@ function onAdd() {
   font-size: 11.5px; font-weight: 900;
   display: inline-flex; align-items: center; justify-content: center;
 }
-.tips-card { margin-top: 18px; margin-bottom: 6px; }
+.tips-card { margin-top: 12px; margin-bottom: 6px; }
+.steps-card { margin-top: 18px; }
+.steps-toggle {
+  width: 100%; display: flex; align-items: center; gap: 8px;
+  padding: 13px 16px; background: transparent; border: none;
+  color: var(--text); font-size: 14px; cursor: pointer;
+}
 .bar-row { display: flex; gap: 10px; }
 .bottom-bar {
   position: fixed; bottom: calc(68px + env(safe-area-inset-bottom)); left: 50%; transform: translateX(-50%);
