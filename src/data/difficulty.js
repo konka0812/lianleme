@@ -3,10 +3,11 @@ const ADV = /pistol|handstand|dragon-flag|copenhagen|muscle|planche|l-sit|hindu|
 
 export function difficultyOf(ex) {
   if (!ex) return '进阶'
-  if (ADV.test(ex.slug)) return '高阶'
+  if (ADV.test(ex.name)) return '高阶'
   if (ex.isStretch || ex.equipment === 'Machine' || ex.equipment === 'Cable' || ex.equipment === 'Resistance Band' || ex.exerciseType === 'duration') return '新手'
-  if (/plank|crunch|bridge|curl|raise|pushdown|push-down|extension|fly|walk|swing|tuck|tap|jack|mountain|burpee|rope/i.test(ex.slug)) return '新手'
+  if (/plank|crunch|bridge|curl|raise|pushdown|push-down|extension|fly|walk|swing|tuck|tap|jack|mountain|burpee|rope/i.test(ex.name)) return '新手'
   return '进阶'
 }
 
 export const DIFF_COLOR = { '新手': 'var(--teal)', '进阶': 'var(--accent-deep)', '高阶': '#d97706' }
+

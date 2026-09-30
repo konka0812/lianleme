@@ -2,7 +2,7 @@
 import { computed, ref } from 'vue'
 import { workout, toggleDone, removeExercise, moveExercise, clearWorkout } from '../stores/workout'
 import { saveRecord } from '../stores/history'
-import { getExercise } from '../data/catalog'
+import { getExercise, gifUrl, gifFallback } from '../data/catalog'
 import { repSuggestion as repFor } from '../data/tips'
 import { showToast, buzz } from '../stores/toast'
 import FramePlayer from '../components/FramePlayer.vue'
@@ -44,7 +44,7 @@ function finishWorkout() {
     <template v-if="items.length">
       <div v-if="current" class="card current-card">
         <div class="cur-label"><i />当前动作</div>
-        <FramePlayer :slug="current.slug" class="current-player" />
+        <FramePlayer :url="gifUrl(current.ex)" :fallback="gifFallback(current.ex)" class="current-player" />
         <div class="cur-body">
           <div class="cur-name">{{ current.ex.zh }}</div>
           <div class="muted" style="font-size: 13.5px; margin-bottom: 14px;">{{ current.ex.equipZh }} · 建议 {{ current.rep }}</div>

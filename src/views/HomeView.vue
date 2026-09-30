@@ -3,7 +3,7 @@ import { computed } from 'vue'
 import { settings } from '../stores/settings'
 import { workout } from '../stores/workout'
 import { weekStats, last7Days } from '../stores/history'
-import { MUSCLE_GROUPS, byGroup, poolFor, EQUIPMENT_ZH } from '../data/catalog'
+import { MUSCLE_GROUPS, byGroup, poolFor, EQUIP_LABEL } from '../data/catalog'
 import Icon from '../components/Icon.vue'
 
 const groupArt = import.meta.glob(`../assets/groups/group-*.png`, { eager: true, import: 'default' })
@@ -21,7 +21,7 @@ const week = computed(() => weekStats())
 const days = last7Days()
 const equipSummary = computed(() => {
   if (settings.scene !== 'home' || !settings.equipment.length) return '全部器械可用'
-  return settings.equipment.map((k) => EQUIPMENT_ZH[k]).join(' · ')
+  return settings.equipment.map((k) => EQUIP_LABEL[k] || k).join(' · ')
 })
 </script>
 

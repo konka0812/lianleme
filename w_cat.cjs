@@ -1,9 +1,11 @@
-import manifest from './manifest.json'
+# v2 catalog：GIF 数据源 + 新分组
+const fs = require('fs');
+fs.writeFileSync('src/data/catalog.js', `import manifest from './manifest.json'
 
 // 三级素材源：① 华为云OBS(主) ② jsDelivr GH(兜底)
 export const OBS_BASE = 'https://makerizon.obs.cn-north-4.myhuaweicloud.com/fitness-app/wg2'
-export const gifUrl = (ex) => `${OBS_BASE}/${ex.gif}`
-export const gifFallback = (ex) => `https://cdn.jsdelivr.net/gh/hasaneyldrm/exercises-dataset@main/videos/${ex.gif}`
+export const gifUrl = (ex) => \`\${OBS_BASE}/\${ex.gif}\`
+export const gifFallback = (ex) => \`https://cdn.jsdelivr.net/gh/hasaneyldrm/exercises-dataset@main/videos/\${ex.gif}\`
 
 export const exercises = manifest
 
@@ -49,7 +51,7 @@ export function getExercise(slug) {
 
 export function searchExercises(q, settings) {
   const norm = (s) => s.toLowerCase()
-  const tokens = norm(q.trim()).split(/\s+/).filter(Boolean)
+  const tokens = norm(q.trim()).split(/\\s+/).filter(Boolean)
   const p = pool(settings)
   if (!tokens.length) return p
   return p.filter((ex) => {
@@ -61,12 +63,5 @@ export function searchExercises(q, settings) {
 export function allAssetUrls() {
   return exercises.map((e) => gifUrl(e)).filter(Boolean)
 }
-
-export const EQUIP_LABEL = Object.fromEntries(manifest.map((e) => [e.equipment, e.equipZh]))
-export const TYPE_ZH = {
-  weight_reps: '重量 × 次数',
-  bodyweight_reps: '自重 × 次数',
-  duration: '计时',
-  distance_duration: '距离 × 计时',
-  assisted_bodyweight: '辅助自重',
-}
+`);
+console.log('catalog v2 ok');

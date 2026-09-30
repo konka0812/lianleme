@@ -2,7 +2,7 @@
 import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { settings } from '../stores/settings'
-import { MUSCLE_GROUPS, getExercise } from '../data/catalog'
+import { MUSCLE_GROUPS, getExercise, gifUrl, gifFallback } from '../data/catalog'
 import { generatePlan } from '../data/generator'
 import { addExercise } from '../stores/workout'
 import { showToast, buzz } from '../stores/toast'
@@ -83,7 +83,7 @@ const gName = (id) => MUSCLE_GROUPS.find((g) => g.id === id)?.name
       <div class="plan-list">
         <div v-for="(ex, i) in plan" :key="ex.slug" class="card p-item">
           <span class="p-idx">{{ i + 1 }}</span>
-          <FramePlayer :slug="ex.slug" style="width: 62px; height: 62px; flex-shrink: 0;" />
+          <FramePlayer :url="gifUrl(ex)" :fallback="gifFallback(ex)" style="width: 62px; height: 62px; flex-shrink: 0;" />
           <router-link :to="`/e/${ex.slug}`" class="grow" style="text-decoration: none; color: inherit; min-width: 0;">
             <div style="font-weight: 800; font-size: 14px;">{{ ex.zh }}</div>
             <div class="faint">{{ ex.equipZh }} · {{ ex.muscleZh }}</div>

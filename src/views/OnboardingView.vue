@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { completeOnboarding } from '../stores/settings'
-import { HOME_EQUIPMENT, ALL_EQUIPMENT, EQUIPMENT_ZH } from '../data/catalog'
+import { HOME_EQUIPMENT, ALL_EQUIPMENT, EQUIP_LABEL } from '../data/catalog'
 import Icon from '../components/Icon.vue'
 
 const router = useRouter()
@@ -38,7 +38,7 @@ function finish() {
       <div class="onb-hero">
         <div class="logo-dot"><Icon name="dumbbell" :size="38" /></div>
         <h1>练了么</h1>
-        <p class="muted">302 个标准动作 · 中文要点 · 离线可用<br />今天，练了么？</p>
+        <p class="muted">1324 个标准动作 · 中文步骤要点 · 离线可用<br />今天，练了么？</p>
         <button class="btn btn-primary btn-lg btn-block" @click="step = 1">开始</button>
       </div>
     </template>
@@ -61,7 +61,7 @@ function finish() {
         <button
           v-for="k in equipList()" :key="k" class="chip"
           :class="{ on: equipment.includes(k) }" @click="toggleEquip(k)"
-        >{{ EQUIPMENT_ZH[k] }}</button>
+        >{{ EQUIP_LABEL[k] || k }}</button>
       </div>
       <button class="btn btn-primary btn-lg btn-block" @click="finish">
         完成设置{{ equipment.length ? `（${equipment.length} 种器械）` : '' }}
@@ -93,5 +93,6 @@ function finish() {
 }
 .scene-card.on .scene-check { background: var(--accent-fill); border-color: transparent; }
 </style>
+
 
 

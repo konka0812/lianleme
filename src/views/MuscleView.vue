@@ -2,14 +2,14 @@
 import { ref, computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { settings } from '../stores/settings'
-import { MUSCLE_GROUPS, byGroup, EQUIPMENT_ZH } from '../data/catalog'
+import { MUSCLE_GROUPS, byGroup, EQUIP_LABEL } from '../data/catalog'
 import ExerciseCard from '../components/ExerciseCard.vue'
 import Icon from '../components/Icon.vue'
 
 const route = useRoute()
 const group = computed(() => MUSCLE_GROUPS.find((g) => g.id === route.params.id) || { name: '动作', color: 'var(--accent)' })
 const base = computed(() => byGroup(route.params.id, settings))
-const equipOptions = computed(() => [...new Set(base.value.map((e) => e.equipment))])
+const equipOptions = computed(() => [...new Set(base.value.map((e) => e.equipment))].map((k) => ({ k, zh: EQUIP_LABEL[k] || k })))
 const selected = ref([])
 watch(() => route.params.id, () => { selected.value = [] })
 const list = computed(() => (selected.value.length ? base.value.filter((e) => selected.value.includes(e.equipment)) : base.value))
@@ -34,8 +34,8 @@ function toggle(k) {
     </div>
 
     <div v-if="equipOptions.length > 1" class="chip-row" style="margin: 16px 0 4px;">
-      <button v-for="k in equipOptions" :key="k" class="chip" :class="{ on: selected.includes(k) }" @click="toggle(k)">
-        {{ EQUIPMENT_ZH[k] }}
+      <button v-for="o in equipOptions" :key="o.k" class="chip" :class="{ on: selected.includes(o.k) }" @click="toggle(o.k)">
+        {{ o.zh }}
       </button>
     </div>
 

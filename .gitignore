@@ -2,3 +2,8 @@ node_modules/
 dist/
 .vercel/
 *.local
+gen_*.py
+post_zh.py
+fix_*.py
+extract_steps.py
+obs_*.py

@@ -1,6 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import FramePlayer from './FramePlayer.vue'
+import { gifUrl, gifFallback } from '../data/catalog'
 import Icon from './Icon.vue'
 import { settings, toggleFavorite } from '../stores/settings'
 import { addExercise, workout } from '../stores/workout'
@@ -25,7 +26,7 @@ function onAdd() {
 <template>
   <div class="ex-card card">
     <router-link :to="`/e/${ex.slug}`" class="ex-thumb-link pressable">
-      <FramePlayer :slug="ex.slug" class="ex-thumb" />
+      <FramePlayer :url="gifUrl(ex)" :fallback="gifFallback(ex)" class="ex-thumb" />
     </router-link>
     <router-link :to="`/e/${ex.slug}`" class="ex-info">
       <div class="ex-name">{{ ex.zh }}</div>

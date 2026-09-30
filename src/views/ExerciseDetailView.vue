@@ -9,6 +9,7 @@ import { showToast, buzz } from '../stores/toast'
 import FramePlayer from '../components/FramePlayer.vue'
 import Icon from '../components/Icon.vue'
 import { difficultyOf, DIFF_COLOR } from '../data/difficulty'
+import { gifUrl, gifFallback, TYPE_ZH } from '../data/catalog'
 import { STEPS_ZH } from '../data/steps-zh'
 
 const route = useRoute()
@@ -68,7 +69,7 @@ function onAdd() {
 
     <div class="player-card card" @click="playing = !playing">
       <div class="player-glow" />
-      <FramePlayer :slug="ex.slug" :speed="speed" :playing="playing" />
+      <FramePlayer :url="gifUrl(ex)" :fallback="gifFallback(ex)" />
       <span class="play-state">
         <Icon :name="playing ? 'pause' : 'play'" :size="13" />
         {{ playing ? '播放中' : '已暂停' }}
@@ -83,7 +84,7 @@ function onAdd() {
     <div class="row" style="flex-wrap: wrap; gap: 6px;">
       <span class="tag">{{ ex.equipZh }}</span>
       <span class="tag" style="color: var(--accent); border-color: rgba(200, 241, 105, 0.3);">目标 · {{ ex.muscleZh }}</span>
-      <span class="tag">{{ ex.typeZh }}</span>
+      <span class="tag">{{ TYPE_ZH[ex.exerciseType] || ex.exerciseType }}</span>
       <span class="tag" :style="{ color: DIFF_COLOR[diff], borderColor: 'color-mix(in srgb, ' + DIFF_COLOR[diff] + ' 40%, transparent)', background: 'color-mix(in srgb, ' + DIFF_COLOR[diff] + ' 10%, transparent)' }">难度 · {{ diff }}</span>
       <span v-if="rep" class="tag" style="color: var(--accent2); border-color: rgba(94, 234, 212, 0.3);">建议 {{ rep }}</span>
     </div>
@@ -131,7 +132,7 @@ function onAdd() {
     <div style="height: 140px;" />
 
     <p class="faint" style="margin-top: 8px; font-size: 11px; text-align: center;">
-      线稿素材：Bryl Lim（CC BY-SA 4.0）· 源自 Everkinetic
+      动作演示 © Gym visual · 数据 exercises-dataset (MIT)
     </p>
   </div>
 </template>

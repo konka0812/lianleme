@@ -3,7 +3,7 @@ import { reactive, ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { settings } from '../stores/settings'
 import { history, weekStats, last7Days, last4Weeks } from '../stores/history'
-import { ALL_EQUIPMENT, EQUIPMENT_ZH, getExercise, allAssetUrls } from '../data/catalog'
+import { ALL_EQUIPMENT, EQUIP_LABEL, getExercise, allAssetUrls } from '../data/catalog'
 import { showToast, buzz } from '../stores/toast'
 import Icon from '../components/Icon.vue'
 
@@ -135,9 +135,9 @@ function resetOnboarding() {
         <div class="chip-row">
           <button v-for="(label, key) in sceneLabel" :key="key" class="chip" :class="{ on: settings.scene === key }" @click="settings.scene = key">{{ label }}</button>
         </div>
-        <p class="faint" style="margin: 8px 0 0;">器械偏好：{{ settings.equipment.length ? settings.equipment.map((k) => EQUIPMENT_ZH[k]).join(' · ') : '全部可用' }}</p>
+        <p class="faint" style="margin: 8px 0 0;">器械偏好：{{ settings.equipment.length ? settings.equipment.map((k) => EQUIP_LABEL[k] || k).join(' · ') : '全部可用' }}</p>
         <div class="chip-row" style="margin-top: 8px;">
-          <button v-for="k in ALL_EQUIPMENT" :key="k" class="chip" :class="{ on: settings.equipment.includes(k) }" @click="toggleEquip(k)">{{ EQUIPMENT_ZH[k] }}</button>
+          <button v-for="k in ALL_EQUIPMENT" :key="k" class="chip" :class="{ on: settings.equipment.includes(k) }" @click="toggleEquip(k)">{{ EQUIP_LABEL[k] || k }}</button>
         </div>
       </div>
       <button class="pref-row" @click="toggleSection('theme')">
@@ -156,13 +156,13 @@ function resetOnboarding() {
     <!-- 离线缓存 -->
     <button class="prefetch-btn btn-primary" :disabled="prog.running" @click="prefetch">
       <Icon v-if="!prog.running" name="zap" :size="17" />
-      {{ prog.running ? `缓存中 ${prog.done}/${prog.total}` : '预缓存全部动作图 · 离线可用' }}
+      {{ prog.running ? `缓存中 ${prog.done}/${prog.total}` : '预缓存全部动图 · 离线可用' }}
     </button>
     <div v-if="prog.total" class="bar" style="margin-top: 10px;"><i :style="{ width: (prog.done / prog.total * 100) + '%' }" /></div>
-    <p v-else class="faint" style="text-align: center; margin: 8px 0 0;">约 25MB · 建议Wi-Fi · 健身房断网也能用</p>
+    <p v-else class="faint" style="text-align: center; margin: 8px 0 0;">约 123MB · 强烈建议Wi-Fi · 健身房断网也能用</p>
 
     <p class="faint" style="text-align: center; margin: 22px 0 0; font-size: 11px;">
-      练了么 v1.0 · 线稿素材 Bryl Lim（CC BY-SA 4.0）
+      练了么 v2.0 · 动作演示 © Gym visual · 数据 exercises-dataset (MIT)
     </p>
   </div>
 </template>
