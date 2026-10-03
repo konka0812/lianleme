@@ -271,7 +271,14 @@ input[type='text']::placeholder { color: var(--faint); }
 .tip-text { font-size: 13.5px; line-height: 1.55; }
 .tip-mistake {
   display: flex; gap: 9px; align-items: flex-start;
-  margin-top: 4px; padding: 10px 12px; border-radius: 12px;
-  background: rgba(217, 119, 6, 0.08); border: 1px solid rgba(217, 119, 6, 0.22);
+  margin-top: 4px; padding: 10px 12px 10px 15px; border-radius: 12px;
+  position: relative; overflow: hidden;
+  background: rgba(224, 82, 65, 0.09); border: 1px solid rgba(224, 82, 65, 0.26);
   font-size: 13px; line-height: 1.5;
 }
+.tip-mistake::before {
+  content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+  background: #e05241;
+}
+.tip-mistake b { color: #d64534; }
+.mistake-ico { color: #e05241; display: inline-flex; margin-top: 1px; flex-shrink: 0; }
